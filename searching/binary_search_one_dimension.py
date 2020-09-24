@@ -1,11 +1,3 @@
-"""
-    @lst 1d list
-    @peek a value to find
-    @l left index of the list
-    @r right index of the list
-    @locals
-        @m medium index of a row
-"""
 def binsearch_iterative(lst, peek, l, r):
     while l <= r:
         m = int(l + (r - l) / 2)

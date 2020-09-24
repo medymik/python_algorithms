@@ -1,16 +1,3 @@
-"""
-    @mat 2d list
-    @nc number or rows
-    @nr number of columns
-    @peek value to find
-    @locals
-        @r right index of a row
-        @l left index of a row
-        @t top index of a column
-        @b bottom index of a column
-        @mc medium index of column
-        @mr medium index of a row
-"""
 def binsearch_without_indexes(mat, nc, nr, peek):
     r = nc - 1
     l = 0
